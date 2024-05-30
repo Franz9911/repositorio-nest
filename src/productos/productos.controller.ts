@@ -1,5 +1,5 @@
 import { Body, Controller, Delete, Get, Param, ParseIntPipe, Patch } from '@nestjs/common';
-import { PersonasService } from 'src/personas/personas.service';
+
 import { ProductosService } from './productos.service';
 
 @Controller('productos')
